@@ -1,5 +1,5 @@
 [package]
-name = "chess_nuts_7drl_2021"
+name = "chessnuts"
 version = "0.1.0"
 authors = ["vvdf <t42please@gmail.com>"]
 edition = "2018"
