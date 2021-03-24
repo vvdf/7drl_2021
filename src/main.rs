@@ -16,6 +16,9 @@ struct Renderable {
     bg: RGB,
 }
 
+#[derive(Component)]
+struct LeftMover {}
+
 struct State {
     ecs: World,
 }
