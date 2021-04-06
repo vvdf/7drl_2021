@@ -19,6 +19,9 @@ struct Renderable {
 #[derive(Component)]
 struct LeftMover {}
 
+#[derive(Component)]
+struct Player {}
+
 struct State {
     ecs: World,
 }
