@@ -74,6 +74,7 @@ fn main() -> rltk::BError {
     gs.ecs.register::<Position>(); // register/organize new component
     gs.ecs.register::<Renderable>();
     gs.ecs.register::<LeftMover>();
+    gs.ecs.register::<Player>();
 
     gs.ecs
         .create_entity()
@@ -83,6 +84,7 @@ fn main() -> rltk::BError {
             fg: RGB::named(rltk::YELLOW),
             bg: RGB::named(rltk::BLACK),
         })
+        .with(Player{})
         .build();
 
     for i in 0..10 {
