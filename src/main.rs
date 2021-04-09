@@ -116,7 +116,7 @@ fn main() -> rltk::BError {
             .create_entity()
             .with(Position { x: i * 7, y: 30 })
             .with(Renderable {
-                glyph: rltk::to_cp437('E'),
+                glyph: rltk::to_cp437('e'),
                 fg: RGB::named(rltk::RED),
                 bg: RGB::named(rltk::BLACK),
             })
