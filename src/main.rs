@@ -22,6 +22,11 @@ struct LeftMover {}
 #[derive(Component)]
 struct Player {}
 
+#[derive(PartialEq, Copy, Clone)]
+enum TileType {
+    Wall, Floor
+}
+
 struct State {
     ecs: World,
 }
